@@ -1,0 +1,10 @@
+const Kelvin = 0;
+var Celsius = Kelvin - 273;
+let fahrenheit = Celsius*(9/5)+32;
+let fahrenheit = Math.floor(fahrenheit); 
+Console.log(`La température est de ${fahrenheit}degrés Fahrenheit`)
+
+Pour déterminer le degrée newton
+let newton = celsius *(100/33); 
+let newton = Math.floor(newton);
+Console.log(`La température est de ${newton}degrés newton`)
